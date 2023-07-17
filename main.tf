@@ -27,7 +27,7 @@ resource "aws_db_instance" "my_rds_instance" {
     monitoring_interval                   = 0
     multi_az                              = false
     network_type                          = "IPV4"
-    password                              = "Bj0SbaqvAtZDefR6Q"
+    master_manage_user_password           = "true"
     performance_insights_enabled          = false
     performance_insights_retention_period = 0
     port                                  = 3306
