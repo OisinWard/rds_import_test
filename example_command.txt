@@ -1,0 +1,1 @@
+terraform import aws_db_instance.my_rds_instance test-free-mysql-db
